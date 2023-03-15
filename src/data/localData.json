@@ -1,0 +1,96 @@
+{
+  "AppName": "Croqueur",
+  "AppTitle": "LES CROQUEURS de pommes® de la Brie et du Gâtinais ",
+  "language": [
+    {
+      "id": "fr",
+      "name": "Français",
+      "description": "Langue Française",
+      "urlFlag": "./src/image/fr.png"
+    }
+  ],
+
+  "navBar": [
+    {
+      "fr": "Accueil",
+      "link": "./"
+    },
+    {
+      "fr": "Activités",
+      "link": "./Activity"
+    },
+    {
+      "fr": "Bibliothèque",
+      "link": "./Librairy"
+    },
+    {
+      "fr": "Partenaires",
+      "link": "./Partner"
+    },
+    {
+      "fr": "Nous Contacter",
+      "link": "./Contact"
+    },
+    {
+      "fr": "Test",
+      "en": "Test",
+      "es": "Prueba",
+      "link": "./Test"
+    }
+  ],
+
+  "carousel": [
+    {
+      "title": "pic title pic 1",
+      "url": "./src/images/carousel 1.jpg",
+      "alt": "alternate text for pic 1"
+    },
+    {
+      "title": "pic title",
+      "url": "./src/images/carousel2.jpg",
+      "alt": "alternate text for pic 2"
+    },
+    {
+      "title": "pic title",
+      "url": "./src/images/carousel3.jpg",
+      "alt": "alternate text for pic 3"
+    },
+    {
+      "title": "pic title",
+      "url": "./src/images/carousel4.jpg",
+      "alt": "alternate text for pic 4"
+    },
+    {
+      "title": "pic title",
+      "url": "./src/images/carousel4.jpg",
+      "alt": "alternate text for pic 4"
+    }
+  ],
+  "homeScreen": [
+    {
+      "key": "screenName",
+      "fr": "Graines"
+    },
+    {
+      "key": "newSeed",
+      "fr": "Nouvelle graine",
+      "en": "New seed",
+      "es": "nueva semilla"
+    },
+    {
+      "key": "exit",
+
+      "fr": "Quitter",
+      "en": "exit",
+      "es": "salida"
+    }
+  ],
+
+  "seedType": {
+    "vegetable": 1,
+    "aromatic": 2,
+    "medicinal": 4,
+    "flower": 8,
+    "perennial": 16
+  }
+}
