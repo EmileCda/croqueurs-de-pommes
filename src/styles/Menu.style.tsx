@@ -24,7 +24,7 @@ display: ${(props) => (props.isVisible ? "flex" : "none")};
 
 flex-direction: ${(props) => (props.isMobile ? "column" : "row")};
 
-flex-direction:row;
+
 
 `;
 
